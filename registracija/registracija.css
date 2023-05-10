@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+textarea {
+  width: 500px;
+  height: 150px;
+}
+
+footer.no-margin {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.container-fluid.reg {
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+form {
+  border: 2px solid #555;
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  width: 900px;
+  text-align: center;
+}
+
+.info-name {
+  text-align: center;
+  font-size: 30px;
+}
+
+input#fname {
+  width: 500px;
+}
+
+.different {
+  height: 150px;
+}
+
+.send-button {
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.send-button:hover {
+  box-shadow: 0 0px 10px #8a8a8a;
+}
+
+.requirements {
+  padding-top: 20px;
+}
+
+.info-space.d-flex.flex-column.align-items-center {
+  padding-bottom: 20px;
+}
+
+.reg-form-title {
+  padding-top: 96px;
+  text-align: center;
+  font-family: "Bitter", serif;
+  font-size: 25px;
+}
+
+.background {
+  background-image: url("../photos/pastel.jpg");
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+@media (max-width: 685px) {
+  .reg-form-title {
+    padding-left: 0px;
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  input#fname,
+  textarea,
+  form {
+    width: 100%;
+  }
+}
+@media (max-width: 305px) {
+  button.send-button {
+    width: 100%;
+  }
+}

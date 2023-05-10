@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+footer.no-margin {
+  margin-bottom: 0px !important;
+  margin-top: 167px !important;
+  padding-bottom: 0px !important;
+}
+.container-fluid.info {
+  padding-left: 396px;
+  font-family: "Bitter", serif;
+}
+
+.vilnius {
+  font-size: 35px;
+  padding-bottom: 37px;
+}
+.details {
+  font-size: 15px;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.info {
+  margin-top: 200px;
+}
+
+.clickable-span {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.clickable-span:hover {
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+}
+
+.container.end {
+  margin-top: 100px;
+}
+
+@media (max-width: 1060px) {
+  .d-flex.justify-content-evenly {
+    flex-direction: column;
+  }
+  .container-fluid.info {
+    padding-left: 30px;
+  }
+
+  .building,
+  iframe {
+    width: 100%;
+  }
+}

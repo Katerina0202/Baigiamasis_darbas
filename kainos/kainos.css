@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&display=swap");
+
+.background-color {
+  background: linear-gradient(to bottom, #ffffff, #6060b5);
+}
+
+h2.how-to-pay {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Bitter", serif;
+  font-size: 35px;
+  width: 100%;
+}
+
+.pay {
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+
+.payment {
+  width: 80px;
+  height: 80px;
+}
+
+.payment-text {
+  font-size: 20px;
+  width: 170px;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+}
+
+footer.no-margin {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+h1.card-name {
+  margin-bottom: 0;
+}
+
+.container-fluid.cards {
+  padding-top: 10px;
+  padding-bottom: 17px;
+}
+
+.card-header {
+  width: 100%;
+  height: 50px;
+  background-color: #c4c4c4;
+  border-radius: 0 !important;
+}
+
+.card-footer {
+  width: 100%;
+
+  background-color: #ffffff;
+  border-radius: 0 !important;
+}
+
+.card-name {
+  font-family: "Bitter", serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.card-header.d-flex.justify-content-center.align-items-center {
+  background-color: rgb(216, 216, 216);
+}
+
+span {
+  color: rgb(167, 167, 167);
+}
+
+.price {
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 30px;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+}
+
+.registration-one {
+  width: 350px;
+  height: 55px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #6060b5;
+  border: 1px solid #6060b5;
+  border-radius: 6px;
+  transition: background-color 0.5s ease;
+  font-family: "Karla", sans-serif;
+}
+
+.registration-one:hover {
+  background-color: #6060b5;
+  color: #ffffff;
+  border: 1px solid #6060b5;
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+  width: 390px;
+}
+
+p.small {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.small {
+  font-size: 9px;
+  width: 100%;
+}
+
+@media (max-width: 415px) {
+  .card {
+    width: 100% !important;
+  }
+
+  .text.d-flex.flex-column.align-items-center {
+    width: 100%;
+  }
+
+  h1.card-name {
+    font-size: 25px;
+  }
+  h2.price {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 590px) {
+  .payment-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 320px) {
+  .card h1.card-name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .cards .card-item {
+    flex-direction: column !important;
+
+    align-items: center !important;
+  }
+
+  .card h1.card-name,
+  h2.price,
+  button.registration-one {
+    width: 100%;
+  }
+}

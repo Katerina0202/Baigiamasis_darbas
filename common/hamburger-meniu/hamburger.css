@@ -1,0 +1,142 @@
+.navbar-links.d-flex.justify-content-between.align-items-center.active {
+  display: block !important;
+}
+
+.container.hero {
+  line-height: 60px;
+  max-height: 60px;
+  width: 100;
+}
+
+.nav-names {
+  font-size: 20px;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  z-index: 999;
+  background-color: #608bb5;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a:hover {
+  background-color: #51769b;
+  color: rgb(255, 255, 255);
+}
+
+.container-fluid.navbar {
+  padding: 0;
+}
+
+img.scale {
+  width: 55px;
+  height: 50px;
+  padding-left: 20px;
+  filter: invert(100%);
+}
+
+.brand-title {
+  font-size: 30px;
+
+  color: white;
+  margin-left: 5px;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  padding: 0px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(255, 255, 255) !important;
+  font-family: "Bitter", serif;
+}
+
+a {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 300px) {
+  img.scale {
+    padding-left: 0;
+    width: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar-links {
+    background-color: #608bb5;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .toggle-button {
+    display: flex;
+    margin-top: 6px;
+  }
+
+  body .navbar-links.d-flex.justify-content-between.align-items-center {
+    display: none !important;
+    width: 100% !important;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .navbar-links ul {
+    width: 100% !important;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .brand-title {
+    font-size: 20px;
+  }
+
+  .container-button {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1202px) {
+  ul.d-flex.gap-3.m-0 {
+    gap: 1px !important;
+
+    padding: 0px !important;
+  }
+}

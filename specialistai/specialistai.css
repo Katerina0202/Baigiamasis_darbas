@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+footer.no-margin {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+img.specialist-j {
+  margin-top: 90px;
+}
+
+.review-box {
+  margin-top: 80px;
+}
+.review-img {
+  width: 100px;
+  height: 100px;
+  filter: invert(100%);
+}
+
+.specialist-review {
+  font-size: 30px;
+  font-family: "Bitter", serif;
+  color: white;
+  text-shadow: 2px 3px 5px #373779;
+}
+.client {
+  font-size: 25px;
+  font-family: "Karla", sans-serif;
+  width: 600px;
+  text-align: center;
+}
+
+.client-info {
+  font-size: 15px;
+}
+
+.owl-carousel.owl-theme {
+  margin-top: 35px;
+}
+
+.line {
+  margin-top: 200px;
+  color: #42429e;
+}
+
+.ats {
+  height: 100px;
+}
+
+h1.name {
+  margin-top: 115px;
+}
+
+.specialist-title {
+  margin-top: 150px;
+  color: #42429e;
+  font-family: "Bitter", serif;
+  font-size: 75px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-shadow: 1px 3px 0px #8f8ff1;
+}
+
+.name {
+  margin-top: 120px;
+  color: #6060b5;
+  font-family: "Bitter", serif;
+  font-size: 50px;
+}
+
+.specialist,
+.specialist-d {
+  margin-top: 160px;
+}
+
+img.specialist-v {
+  margin-top: 170px;
+}
+
+.skill {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.container.viktorija {
+  margin-top: 30px;
+}
+
+.container.deimantas {
+  margin-top: 45px;
+}
+
+h1.name.vikt {
+  margin-top: 190px;
+}
+
+h1.name.deim {
+  margin-top: 190px;
+}
+
+.uni {
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+
+.container-fluid.people {
+  background: linear-gradient(to bottom, #ffffff, #6060b5);
+  background-size: 100% 150%;
+}
+
+.thoughts {
+  margin-top: 30px;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  text-shadow: 1px 2px 5px #858585;
+  font-size: 20px;
+  text-align: center;
+}
+
+.box {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+}
+
+p.thoughts.deim {
+  margin-top: 18px;
+}
+
+p.thoughts.just,
+.thoughts.vikt {
+  width: 500px;
+}
+
+.name.deim,
+.uni.deim,
+.skill.deim,
+.skill.deim,
+.thoughts.deim {
+  padding-left: 30px;
+}
+
+h2.skill.deim {
+  margin-top: 10px;
+}
+
+p.thoughts.just,
+p.thoughts.vikt {
+  width: 100%;
+}
+
+p.thoughts.vikt {
+  margin-top: 25px;
+}
+
+@media (max-width: 472px) {
+  .specialist-title {
+    font-size: 38px;
+  }
+
+  h1.name,
+  h1.name.deim,
+  h1.name.vikt {
+    width: 100%;
+    font-size: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .client {
+    width: 100%;
+  }
+}
+
+@media (max-width: 490px) {
+  .name.deim,
+  .uni.deim,
+  .skill.deim,
+  .skill.deim,
+  .thoughts.deim {
+    padding-left: 0px;
+  }
+}
